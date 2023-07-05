@@ -14,6 +14,8 @@ public class Filme {
     private Integer anoLancamento;
     private String genero;
 
+    public Filme() {}
+
     public Filme(DadosCadastroFilme dados){
         this.nome = dados.nome();
         this.duracaoEmMinutos = dados.duracao();
